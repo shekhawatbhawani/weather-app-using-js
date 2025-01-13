@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!--  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="weather-app">
+      <input type="text" placeholder="Enter your city" />
+      <h1 class="city">Sikar</h1>
+      <p class="time">Thursday, January 9, 2025 at 12:04 PM</p>
+      <div>
+        <span class="weather">Clear</span>
+      </div>
+      <div class="image logo">
+        <img src="https://openweathermap.org/img/wn/02d@4x.png" alt="" />
+      </div>
+      <h1 class="temperature">26.03&deg;C</h1>
+      <p>
+        <span class="min-max">min: 25.03&deg;C</span> max: 26.03&deg;C
+        <span class="min-max"></span>
+      </p>
+      <div class="weather-details">
+        <div class="icon">
+            <i class="fas fa-tint fa-xl"></i>
+          <div>
+            <p>Feels Like</p>
+            <p class="feels">26.03&deg;C</p>
+          </div>
+        </div>
+        <div class="icon">
+            <i class="fas fa-tint fa-xl"></i>
+
+
+          <div>
+            <p>Humidity</p>
+            <p class="humidity">27%</p>
+          </div>
+        </div>
+      </div>
+      <div class="weather-details">
+         
+          <div class="icon">
+            <i class="fa-solid fa-wind fa-xl"></i>
+            <div>
+              <p>Wind</p>
+              <p class="wind">4.83 m/s</p>
+            </div>
+          </div>
+        <div class="icon">
+            <i class="fas fa-tachometer-alt fa-xl"></i>
+          <div>
+            <p>Pressure</p>
+            <p class="pressure">1015 hPa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
